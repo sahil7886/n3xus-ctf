@@ -16,12 +16,46 @@ The setup was fairly easy, considering it was my first time using Move. Had a fe
 
 ## Challenge 1
 1. Reading and understanding the repo was fairly easy. I used Suiscan to find the vault code and object id.
-2. Implementing this was difficult. I repeatedly got the 'UnusedValueWithoutDrop' error and faced a lot of bugs.
+2. Implementing this was difficult. I repeatedly got the 'UnusedValueWithoutDrop' error and faced a lot of bugs. In the end though, when I finally got it, it was very satisfying!
+3. Ran into a lot of typescript/node/ESM module not found and compatibility issues with '@mysten/sui.js'. It was also a bit tricky to fetch my keypair from my address to sign and execute the transaction.
 
 ### Summary
-<>
+Logic and execution was fairly easy to figure out but syntax, finding which functions and which libraries to use and debugging took a while. 
 
 ### Deliverables
 - cli flag: 0xf31b8049b977afe0c59b44092f149e4f164637b7379ab498235a129ab63236db
-- ts sdk flag:
+- ts sdk flag: 0x889cdbd0469689e459b3c08c5123cf5f456fa0eab7415ab8e404bf07de1afafd
+
+
+## Challenge 2
+1. Creating the token was pretty easy. Made a new package, used the code from the docs and published the package. 
+2. Adding the mint function was straightforward. Docs had clear instructions.
+3. This was easy too. Just added another function. The cli call to burn was very similar to the one to mint as well.
+4. Wasn't sure exactly what I had to do, but a little bit of browsing around and figured that you just had to put the cli call in a bash script, which was pretty easy.
+
+### Summary
+Fairly straightforward.
+
+### Deliverables
+- coins sent: BEyyFTooAHA1392YUougXrUfMNxzx28DkopJH4w6qfmL
+- github repo: https://github.com/sahil7886/n3xus-ctf
+- transaction digest of minting coins: EWksNQyiQenMYrP1KynkbjJvLRZCdBTp5YCejnvrm9DH
+- transaction digest of burning coins: 9zckDAniXDm2UX3XHRVZKQA82yo3ctpViVhbWm8eVfk1
+
+## Challenge 3
+1. Walrus wasn't working so I used Pinata instead and got a url to the image.
+2. Code for this was a bit difficult to figure out but the documentation helped a lot!
+3. This was fairly straightforward. 
+4. Adding a counter logic and logic to limit minting at max supply was also a bit tricky.
+5. Was a bit complicated but worked after a bit of browsing the web.
+
+### Summary
+Creating the NFT was very easy. Did face a few bugs but sorted them out fairly quickly.
+
+### Deliverables
+- Minted the t0m nft to that address.
+- github repo: https://github.com/sahil7886/n3xus-ctf
+- Transaction digest of minting NFT: 3sorwU5xjh6dSMTZVEiCFkm6H8TykvzJcQmFARSdHYnf
+
+
 
