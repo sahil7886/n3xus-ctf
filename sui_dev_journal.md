@@ -84,4 +84,4 @@ Overall, one of the most straightforward challenges. Barely faced any friction.
 
 ### Deliverables
 - github repo: https://github.com/sahil7886/n3xus-ctf
-- https://n3xus-ctf.vercel.app/
+- https://sal-dashboard.vercel.app/
