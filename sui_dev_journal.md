@@ -63,10 +63,25 @@ Creating the NFT was very easy. Did face a few bugs but sorted them out fairly q
 3. copy-paste; very easy
 4. Used bun. Very easy.
 5. Got the website started easily but was having issues testing it. Turns out I was using a wallet that doesn't support the Sui Testnet (Phantom). Switched to Slush and it was seamless.
+6. Simple.
 
 ### Summary
 Overall, one of the most straightforward challenges. Barely faced any friction.
 
 ### Deliverables
 - github repo: https://github.com/sahil7886/n3xus-ctf
-- 
+- https://n3xus-ctf.vercel.app/
+
+## Challenge 5
+1. Simple. 1 command.
+2. Pretty tricky. Had to change the smart contract, republish it. Changing the UI to mint tokens instead of creating a counter was a bit tricky. Had an issue with the contract not recognising the treasury cap because I put in the full address (0x2::coin::TreasuryCap<0xb2d4593dd2c4e2a47a085d750c84a2a4f7a5e90b0fe7b7ae079aadecd5ee557b::my_coin::MY_COIN>) instead of just the relevant part (0xb2d4593dd2c4e2a47a085d750c84a2a4f7a5e90b0fe7b7ae079aadecd5ee557b).
+3. Fairly straighforward. Involved adding another button to fetch the balance and a hook to call the sui client function.
+4. The mechanism to burn a specific amount of tokenswas a bit tricky to figure out since the burn function in the move contract burns an entire coin object. I had to first check the address if they hold that amount in a single coin object and then split and burn that amount. 
+5. Simple.
+
+### Summary
+Overall, one of the most straightforward challenges. Barely faced any friction.
+
+### Deliverables
+- github repo: https://github.com/sahil7886/n3xus-ctf
+- https://n3xus-ctf.vercel.app/
