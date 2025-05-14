@@ -57,5 +57,16 @@ Creating the NFT was very easy. Did face a few bugs but sorted them out fairly q
 - github repo: https://github.com/sahil7886/n3xus-ctf
 - Transaction digest of minting NFT: 3sorwU5xjh6dSMTZVEiCFkm6H8TykvzJcQmFARSdHYnf
 
+## Challenge 4
+1. Very simple setup. Pretty much just 1 command.
+2. Very simple again. Just copied the flow from Challenge 0. (Package ID: 0xe52ebbcb8c17c487b74a72e814c8cb62189f9d40e286171cc1582d2e55a3f61a)
+3. copy-paste; very easy
+4. Used bun. Very easy.
+5. Got the website started easily but was having issues testing it. Turns out I was using a wallet that doesn't support the Sui Testnet (Phantom). Switched to Slush and it was seamless.
 
+### Summary
+Overall, one of the most straightforward challenges. Barely faced any friction.
 
+### Deliverables
+- github repo: https://github.com/sahil7886/n3xus-ctf
+- 
